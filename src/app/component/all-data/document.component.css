@@ -1,0 +1,28 @@
+.page-content {
+    margin: 15% 5% 0px 5%;
+}
+
+.card-container {
+    margin-top: 20px;
+}
+
+.p-3.border.bg-light {
+    background: white !important;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #aaaaaa;
+    margin-bottom: 16px;
+    padding: 8px !important;
+}
+
+p.label {
+    background: #d7d7d7;
+    border-radius: 20px;
+    padding: 0px 15px;
+    font-size: 10px;
+    float: right;
+}
+
+p.para {
+    font-size: 15px;
+    margin-top: 50px;
+}

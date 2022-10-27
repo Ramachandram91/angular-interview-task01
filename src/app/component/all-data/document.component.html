@@ -1,0 +1,15 @@
+<div class="page-content">
+    <div class="search-box">
+        <input type="text" class="form-control" [(ngModel)]="searchText" placeholder="Start typing document name...">
+    </div>
+    <div class="card-container">
+        <div class="row gx-5">
+            <div class="col-3" *ngFor='let item of data_ | filter: searchText; let i = index'>
+                <div class="p-3 border bg-light">
+                    <p class="label">{{item.name}}</p>
+                    <p class="para">{{item.label}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
